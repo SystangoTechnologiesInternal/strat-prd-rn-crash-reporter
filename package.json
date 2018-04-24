@@ -1,0 +1,77 @@
+{
+  "_from": "rn-crash-reporter",
+  "_id": "rn-crash-reporter@1.0.7",
+  "_inBundle": false,
+  "_integrity": "sha1-EW71WjdTLKWZEfNvNdlniRVR4n8=",
+  "_location": "/rn-crash-reporter",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "rn-crash-reporter",
+    "name": "rn-crash-reporter",
+    "escapedName": "rn-crash-reporter",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/rn-crash-reporter/-/rn-crash-reporter-1.0.7.tgz",
+  "_shasum": "116ef55a37532ca59911f36f35d967891551e27f",
+  "_spec": "rn-crash-reporter",
+  "_where": "/Users/stplmacmini15/Documents/Projects/listDemo",
+  "author": {
+    "name": "Sytango Technologies",
+    "email": "engineering@systango.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sytango-technologies/rn-crash-reporter/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "react-native-device-info": "^0.9.7",
+    "react-native-sqlite-storage": "^3.1.2"
+  },
+  "deprecated": false,
+  "description": "Library of react native components which allow reporting steps leading to an application crash",
+  "homepage": "https://github.com/sytango-technologies/rn-crash-reporter/wiki",
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "crash",
+    "bug",
+    "crash-report",
+    "crash reporter"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "Sytango Technologies",
+      "email": "engineering@systango.com"
+    }
+  ],
+  "name": "rn-crash-reporter",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react-native": ">=0.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sytango-technologies/rn-crash-reporter.git"
+  },
+  "rnpm": {
+    "android": {
+      "packageInstance": "new RNSCrashReporterModule(this)"
+    },
+    "ios": {
+      "project": "ios/RNCrashReporter.xcodeproj"
+    }
+  },
+  "version": "1.0.7"
+}
